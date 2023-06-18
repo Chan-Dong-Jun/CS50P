@@ -1,2 +1,2 @@
 # CS50P
-Repository CS50P PSETS and final project.
+Repository of CS50P PSETS and final project.
