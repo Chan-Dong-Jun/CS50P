@@ -1,0 +1,21 @@
+# Sunday, 21 May, 2023
+# CS50P Week 1
+
+def main():
+    text = input("What time is it? ")
+    time = convert(text)
+    if 7 <= time <= 8:
+        print("breakfast time")
+    elif 12 <= time <= 13:
+        print("lunch time")
+    elif 18<= time <= 19:
+        print("dinner time")
+
+def convert(time):
+    hour, minutes = time.split(":")
+    hour, minutes = float(hour), float(minutes)
+    return hour + minutes/60
+
+
+if __name__ == "__main__":
+    main()
